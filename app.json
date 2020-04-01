@@ -1,0 +1,7 @@
+{
+  "name": "GraphiQL Explorer Example",
+  "description": "A GraphiQL Explorer example app",
+  "repository": "https://github.com/rumsa/graphiql-explorer-example",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "graphiql", "static"]
+}
