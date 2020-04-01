@@ -1,0 +1,15 @@
+{
+  "root": "dist/",
+  "https_only": true,
+  "http": {
+    "client_max_body_size": "50M"
+  },
+  "routes": {
+    "/**": "index.html"
+  },
+  "headers": {
+    "/": {
+      "Cache-Control": "no-store, no-cache"
+    }
+  }
+}
