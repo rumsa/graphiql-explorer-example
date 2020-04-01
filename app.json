@@ -4,15 +4,9 @@
   "repository": "https://github.com/rumsa/graphiql-explorer-example",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["node", "graphiql", "static"],
-  "scripts": {
-    "postdeploy": "yarn run deploy"
-  },
   "buildpacks": [
     {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/rumsa/heroku-buildpack-static"
+      "url": "https://github.com/mars/create-react-app-buildpack.git"
     }
   ]
 }
