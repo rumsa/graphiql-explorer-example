@@ -5,7 +5,7 @@
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["node", "graphiql", "static"],
   "scripts": {
-    "postdeploy": "yarn install"
+    "postdeploy": "yarn run deploy"
   },
   "buildpacks": [
     {
