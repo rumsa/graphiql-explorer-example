@@ -3,5 +3,16 @@
   "description": "A GraphiQL Explorer example app",
   "repository": "https://github.com/rumsa/graphiql-explorer-example",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "graphiql", "static"]
+  "keywords": ["node", "graphiql", "static"],
+  "scripts": {
+    "postdeploy": "yarn install"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/rumsa/heroku-buildpack-static"
+    }
+  ],  
 }
